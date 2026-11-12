@@ -20,15 +20,15 @@ DevPulse helps software teams manage projects, track development progress, and u
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | React 19, TypeScript, Vite, Tailwind CSS, TanStack Query, dnd-kit |
-| Backend | Node.js, Express 5, TypeScript, Zod |
-| Database | PostgreSQL, Prisma |
-| Cache and queues | Redis, BullMQ |
-| Real-time | Socket.IO |
-| AI | Google Gemini API |
-| DevOps | Docker, GitHub Actions, Terraform, AWS |
+| Layer            | Technology                                                        |
+| ---------------- | ----------------------------------------------------------------- |
+| Frontend         | React 19, TypeScript, Vite, Tailwind CSS, TanStack Query, dnd-kit |
+| Backend          | Node.js, Express 5, TypeScript, Zod                               |
+| Database         | PostgreSQL, Prisma                                                |
+| Cache and queues | Redis, BullMQ                                                     |
+| Real-time        | Socket.IO                                                         |
+| AI               | Google Gemini API                                                 |
+| DevOps           | Docker, GitHub Actions, Terraform, AWS                            |
 
 ## Architecture at a Glance
 
@@ -65,7 +65,7 @@ devpulse/
 
 ## Quick Start
 
-**Prerequisites:** Node.js 22 LTS, pnpm, Docker.
+**Prerequisites:** Node.js 26 LTS, pnpm, Docker.
 
 ```bash
 git clone https://github.com/<your-username>/devpulse.git
@@ -84,13 +84,13 @@ pnpm dev
 
 ## Scripts
 
-| Command | Description |
-|---|---|
-| `pnpm dev` | Run web, API, and worker |
-| `pnpm build` | Build all apps |
-| `pnpm lint` | Lint |
-| `pnpm typecheck` | Type check |
-| `pnpm test` | Run tests |
+| Command          | Description              |
+| ---------------- | ------------------------ |
+| `pnpm dev`       | Run web, API, and worker |
+| `pnpm build`     | Build all apps           |
+| `pnpm lint`      | Lint                     |
+| `pnpm typecheck` | Type check               |
+| `pnpm test`      | Run tests                |
 
 ## License
 

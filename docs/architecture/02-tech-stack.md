@@ -25,7 +25,7 @@ Each tool solves one problem. If you can say *what problem* a tool solves, you u
 
 | Tool | Problem it solves |
 |---|---|
-| **Node.js (22 LTS)** | Runs JavaScript on the server. LTS means long-term support, which is what production uses. |
+| **Node.js (26 LTS)** | Runs JavaScript on the server. LTS means long-term support, which is what production uses. |
 | **Express 5** | Handles HTTP routes. Version 5 catches errors in `async` route handlers on its own. |
 | **TypeScript** | Same type safety as the frontend. |
 | **Zod** | Validates request bodies and environment variables at runtime. |

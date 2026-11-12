@@ -46,14 +46,14 @@ The apps run directly with `pnpm dev` for fast reloads. Only the databases run i
 A **multi-stage build** keeps the final image small: one stage installs and builds, the last stage copies only what is needed to run.
 
 ```dockerfile
-FROM node:22-alpine AS build
+FROM node:26-alpine AS build
 WORKDIR /app
 RUN corepack enable
 COPY . .
 RUN pnpm install --frozen-lockfile
 RUN pnpm --filter api build && pnpm --filter api exec prisma generate
 
-FROM node:22-alpine AS runtime
+FROM node:26-alpine AS runtime
 WORKDIR /app
 ENV NODE_ENV=production
 COPY --from=build /app/... ./     # only built output and production dependencies
